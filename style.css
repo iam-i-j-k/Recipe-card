@@ -42,7 +42,7 @@ nav img{
     position: relative;
     left: 33%;
     border-radius: 100%;
-    width: 500px;
+    width: 35%;
     box-shadow: 0 1px 10px black;
 }
 .cake-title{
@@ -60,10 +60,7 @@ a{
     cursor: pointer;
     text-decoration: underline;
 }
-.ingredients-btn i{
-    position: relative;
-    right: -83%;
-}
+
 .cake-ingredients{
     display: none;
     margin: 30px;
@@ -75,10 +72,7 @@ a{
 .instructions-btn{
     margin: 30px;
 }
-.instructions-btn i{
-    position: relative;
-    right: -82.59%;
-}
+
 .instructions-btn:hover{
     cursor: pointer;
     text-decoration: underline;

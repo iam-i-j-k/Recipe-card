@@ -13,13 +13,13 @@ document.getElementById('cook-btn').addEventListener('click', function() {
     const insts = document.getElementById('cake-instructions');
     insts.classList.add('active');
     const steps = document.querySelectorAll('#cake-instructions li');
+    
     if (stepIndex < steps.length) {
         document.getElementById('cook').innerHTML = "Next Step";
-        steps[stepIndex].style.backgroundColor = "#FFCD2A";
+        steps[stepIndex].style.backgroundColor = "#000000";
         stepIndex++;
     }
     else{
         document.getElementById('cook-btn').innerHTML = "Ooooh I can smell it...😋";
-
     }
 });

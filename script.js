@@ -14,12 +14,12 @@ document.getElementById('cook-btn').addEventListener('click', function() {
     insts.classList.add('active');
     const steps = document.querySelectorAll('#cake-instructions li');
     if (stepIndex < steps.length) {
-        document.getElementById('cook').innerHTML = "Next";
+        document.getElementById('cook').innerHTML = "Next Step";
         steps[stepIndex].style.backgroundColor = "#FFCD2A";
         stepIndex++;
     }
     else{
-        document.getElementById('cook-btn').innerHTML = "Ooooh I can smell it...";
+        document.getElementById('cook-btn').innerHTML = "Ooooh I can smell it...😋";
 
     }
 });

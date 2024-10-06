@@ -91,12 +91,11 @@ a{
     display: block;
 }
 @media only screen and(max-width: 1080px){
-    .cards{
-        flex-direction: column;
-        /* width: max-content;
-    display: flex; */
-    /* padding: 10px;
-    height: max-content; */
+    nav{
+        font-size: 1rem;
+    }
+    nav img{
+        width: 30px;
     }
 }
 

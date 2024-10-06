@@ -19,7 +19,7 @@ document.getElementById('cook-btn').addEventListener('click', function() {
         stepIndex++;
     }
     else{
-        document.getElementById('cook-btn').innerHTML = "You have done Cooking";
+        document.getElementById('cook-btn').innerHTML = "Ooooh I can smell it...";
 
     }
 });
